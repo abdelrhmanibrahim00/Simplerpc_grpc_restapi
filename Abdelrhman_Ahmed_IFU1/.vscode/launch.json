@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Class",
+            "type": "coreclr",
+            "request": "launch",           
+            "preLaunchTask": "build-Class",
+            "program": "${workspaceFolder}/Classroom/bin/Debug/net8.0/Classroom.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Classroom",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Teacher",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Teacher",
+            "program": "${workspaceFolder}/Teacher/bin/Debug/net8.0/Teacher.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Teacher",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Door",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Door",
+            "program": "${workspaceFolder}/Door/bin/Debug/net8.0/Door.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Door",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        }
+
+    ]
+}
